@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import 'scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap';
 import ScrollMagic from 'scrollmagic';
+import '../../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap';
+import '../../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators';
 
 class App extends Component {
 	constructor(props) {
